@@ -3,7 +3,7 @@
 A fast, minimal weather app for Jamie (Outdoor Enthusiast) to check current weather in any city. Built with React + Vite + Tailwind, using Open-Meteo APIs.
 
 ## Live Demo
-- Netlify: <ADD_YOUR_NETLIFY_URL_HERE>
+- Netlify: <https://weathernowwww.netlify.app/
 
 ## Features
 - Quick city search with Enter key
@@ -23,7 +23,7 @@ cd weather-now
 npm install
 npm run dev
 ```
-Then open `http://localhost:5173`.
+
 
 ## Build
 ```bash
