@@ -3,7 +3,7 @@
 A fast, minimal weather app for Jamie (Outdoor Enthusiast) to check current weather in any city. Built with React + Vite + Tailwind, using Open-Meteo APIs.
 
 ## Live Demo
-- Netlify: <https://weathernowwww.netlify.app/
+- Netlify: <https://weathernowwww.netlify.app/>
 
 ## Features
 - Quick city search with Enter key
