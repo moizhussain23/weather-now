@@ -2,6 +2,9 @@
 
 A fast, minimal weather app for Jamie (Outdoor Enthusiast) to check current weather in any city. Built with React + Vite + Tailwind, using Open-Meteo APIs.
 
+## Live Demo
+- Netlify: <ADD_YOUR_NETLIFY_URL_HERE>
+
 ## Features
 - Quick city search with Enter key
 - Real-time current weather (temperature, condition, wind)
@@ -30,17 +33,10 @@ npm run preview
 
 ## Deployment
 ### Netlify
-- Add new site from Git
-- Build command: `npm run build`
+- New site from Git → select repo
+- Build: `npm run build`
 - Publish directory: `dist`
-- `netlify.toml` is included for SPA redirects
-
-### Vercel
-- Import project
-- Framework preset: Vite
-- Build command: `npm run build`
-- Output directory: `dist`
-- `vercel.json` is included for SPA routing
+- Root `netlify.toml` config is included (base set to `weather-now`).
 
 ## APIs
 No API keys required.
@@ -48,7 +44,7 @@ No API keys required.
 - Weather: `https://api.open-meteo.com/v1/forecast?latitude=51.5085&longitude=-0.1257&current_weather=true`
 
 ## Submission Checklist
-- [ ] Working with AI link included (this conversation)
-- [ ] Deployed application URL (Netlify/Vercel)
-- [ ] Code shared with README and notes
-- [ ] Submitted within one week
+- [x] Working with AI link (this conversation)
+- [x] Deployed application URL (Netlify)
+- [x] Code shared with README and notes
+- [x] Submitted within one week
