@@ -43,8 +43,3 @@ No API keys required.
 - Geocoding: `https://geocoding-api.open-meteo.com/v1/search?name=London`
 - Weather: `https://api.open-meteo.com/v1/forecast?latitude=51.5085&longitude=-0.1257&current_weather=true`
 
-## Submission Checklist
-- [x] Working with AI link (this conversation)
-- [x] Deployed application URL (Netlify)
-- [x] Code shared with README and notes
-- [x] Submitted within one week
