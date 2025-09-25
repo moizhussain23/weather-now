@@ -1,5 +1,3 @@
-import React from 'react'
-
 export function WeatherIcon({ code, className = 'h-10 w-10' }: { code: number; className?: string }) {
 	const common = 'text-white'
 	if (code === 0) return <Sun className={`${className} ${common}`} />
