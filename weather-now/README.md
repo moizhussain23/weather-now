@@ -29,14 +29,26 @@ npm run preview
 ```
 
 ## Deployment
-Deploy the `weather-now` folder on Vercel or Netlify as a static site.
-- Vercel: Import project -> Framework preset: Vite
-- Netlify: `npm run build`, publish `dist/`
+### Netlify
+- Add new site from Git
+- Build command: `npm run build`
+- Publish directory: `dist`
+- `netlify.toml` is included for SPA redirects
 
-## Configuration
-No API keys required. APIs used:
+### Vercel
+- Import project
+- Framework preset: Vite
+- Build command: `npm run build`
+- Output directory: `dist`
+- `vercel.json` is included for SPA routing
+
+## APIs
+No API keys required.
 - Geocoding: `https://geocoding-api.open-meteo.com/v1/search?name=London`
 - Weather: `https://api.open-meteo.com/v1/forecast?latitude=51.5085&longitude=-0.1257&current_weather=true`
 
-## Notes
-- Default search loads "London" on first render. Use the search bar to query any city.
+## Submission Checklist
+- [ ] Working with AI link included (this conversation)
+- [ ] Deployed application URL (Netlify/Vercel)
+- [ ] Code shared with README and notes
+- [ ] Submitted within one week

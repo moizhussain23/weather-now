@@ -1,0 +1,10 @@
+{
+  "name": "weather-now-root",
+  "private": true,
+  "scripts": {
+    "dev": "cd \"weather-now\" && npm run dev",
+    "build": "cd \"weather-now\" && npm run build",
+    "preview": "cd \"weather-now\" && npm run preview",
+    "install-app": "cd \"weather-now\" && npm install"
+  }
+}
